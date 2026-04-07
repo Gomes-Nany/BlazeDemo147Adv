@@ -1,0 +1,36 @@
+Instalação padrão  do playwright:
+npm init playwright@test
+
+Nosso projeto utilizará as seguintes abordagens:
+- Separação dos cenários de negócio dos scripts de automação
+- Vamos precisar de no mínimo 2 arquivos
+ ---> Pasta features, que contem arquivos
+    .Feature - Funcionalidades de cenários de negócio / critérios de aceitação  / Dados
+ ---> Pasta steps, que contém arquivos
+ .Spec.js - script de automação de teste
+     instalações adicionais:
+    // Instala o pacote que da suporte ao BDD
+    // BDD = Desenvolvimento direcionado por comportamento
+    npm install -D playwright-bdd
+   
+Feature: Login
+   Scenario: Login with sucess
+     Given
+     When
+     Then
+
+Funcionalidade: Login
+    Cenário: Login com sucesso
+    Dado
+    Quando
+    Entao
+
+Nomenclatura
+- BDD - Behavior Driven Development - Desenvolvimento direcionado pelo comportamento
+Abordagem de desenvolvimento, muito valorizado dentro da agilidade
+Objetivo é facilitar a comunicação entre os membros do time, áreas e clientes.
+
+- Gherkin: Instruções do BDD são escritas na sintaxe (Formato) chamado Gherkin
+
+- cucumber/ Behavior/ Specflow são exemplos de plugins que fazem a integração entre arquivos .features
+com arquivos .spec 
