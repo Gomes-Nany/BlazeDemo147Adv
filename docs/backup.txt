@@ -1,0 +1,485 @@
+? Dado que estou no site Blazedemo
+       Undefined. Implement with the following snippet:
+
+         Given('que estou no site Blazedemo', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono a origem como "São Paolo"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a origem como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono o destino como "London"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o destino como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botao "find flights"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifica o texto "flights from São Paolo To London"
+       Undefined. Implement with the following snippet:
+
+         Then('verifica o texto {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se a url contem "reserve"
+       Undefined. Implement with the following snippet:
+
+         Then('se a url contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono o voo "9696" da companhia "Aer Lingus"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o voo {string} da companhia {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "purchase"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando preencho o nome como "Ayla Oliveira"
+       Undefined. Implement with the following snippet:
+
+         When('preencho o nome como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono a bandeira do cartão como "amex"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a bandeira do cartão como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E marco a opcao "Remember me"
+       Undefined. Implement with the following snippet:
+
+         When('marco a opcao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botão "purchase Flight"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botão {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "confirmation"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se exibe a mensagem de agradecimento "Thank you for your purchase today!"
+       Undefined. Implement with the following snippet:
+
+         Then('se exibe a mensagem de agradecimento {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se contem a informacao "Amount" como "555 USD"
+       Undefined. Implement with the following snippet:
+
+         Then('se contem a informacao {string} como {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+2) Scenario: Compra com sucesso DDT # features\comprar_passagem.feature:39
+   ? Dado que estou no site Blazedemo
+       Undefined. Implement with the following snippet:
+
+         Given('que estou no site Blazedemo', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono a origem como "<origem>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a origem como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono o destino como "London"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o destino como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botao "find flights"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifica o texto flights from "<origem> To London"
+       Undefined. Implement with the following snippet:
+
+         Then('verifica o texto flights from {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se a url contem "reserve"
+       Undefined. Implement with the following snippet:
+
+         Then('se a url contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono o voo "9696" da companhia "<companhia>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o voo {string} da companhia {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "purchase"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando preencho o nome como "Ayla Oliveira"
+       Undefined. Implement with the following snippet:
+
+         When('preencho o nome como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono a bandeira do cartão como "<bandeira>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a bandeira do cartão como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E marco a opcao "Remember me"
+       Undefined. Implement with the following snippet:
+
+         When('marco a opcao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botão "purchase Flight"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botão {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "confirmation"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se exibe a mensagem de agradecimento "Thank you for your purchase today!"
+       Undefined. Implement with the following snippet:
+
+         Then('se exibe a mensagem de agradecimento {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se contem a informacao "Amount" como "<preco>"
+       Undefined. Implement with the following snippet:
+
+         Then('se contem a informacao {string} como {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+3) Scenario: Compra com sucesso DDT # features\comprar_passagem.feature:40
+   ? Dado que estou no site Blazedemo
+       Undefined. Implement with the following snippet:
+
+         Given('que estou no site Blazedemo', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono a origem como "<origem>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a origem como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono o destino como "Dublin"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o destino como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botao "find flights"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifica o texto flights from "<origem> To Dublin"
+       Undefined. Implement with the following snippet:
+
+         Then('verifica o texto flights from {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se a url contem "reserve"
+       Undefined. Implement with the following snippet:
+
+         Then('se a url contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono o voo "12" da companhia "<companhia>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o voo {string} da companhia {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "purchase"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando preencho o nome como "Gabriel Zanoni"
+       Undefined. Implement with the following snippet:
+
+         When('preencho o nome como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono a bandeira do cartão como "<bandeira>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a bandeira do cartão como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E marco a opcao "Remember me"
+       Undefined. Implement with the following snippet:
+
+         When('marco a opcao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botão "purchase Flight"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botão {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "confirmation"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se exibe a mensagem de agradecimento "Thank you for your purchase today!"
+       Undefined. Implement with the following snippet:
+
+         Then('se exibe a mensagem de agradecimento {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se contem a informacao "Amount" como "<preco>"
+       Undefined. Implement with the following snippet:
+
+         Then('se contem a informacao {string} como {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+
+4) Scenario: Compra com sucesso DDT # features\comprar_passagem.feature:41
+   ? Dado que estou no site Blazedemo
+       Undefined. Implement with the following snippet:
+
+         Given('que estou no site Blazedemo', function () {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono a origem como "<origem>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a origem como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono o destino como "New York"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o destino como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botao "find flights"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifica o texto flights from "<origem> To New York"
+       Undefined. Implement with the following snippet:
+
+         Then('verifica o texto flights from {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se a url contem "reserve"
+       Undefined. Implement with the following snippet:
+
+         Then('se a url contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando seleciono o voo "34" da companhia "<companhia>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono o voo {string} da companhia {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "purchase"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Quando preencho o nome como "Victória Almeida"
+       Undefined. Implement with the following snippet:
+
+         When('preencho o nome como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E seleciono a bandeira do cartão como "<bandeira>"
+       Undefined. Implement with the following snippet:
+
+         When('seleciono a bandeira do cartão como {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E marco a opcao "Remember me"
+       Undefined. Implement with the following snippet:
+
+         When('marco a opcao {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E clico no botão "purchase Flight"
+       Undefined. Implement with the following snippet:
+
+         When('clico no botão {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? Entao verifico se a URL contem "confirmation"
+       Undefined. Implement with the following snippet:
+
+         Then('verifico se a URL contem {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se exibe a mensagem de agradecimento "Thank you for your purchase today!"
+       Undefined. Implement with the following snippet:
+
+         Then('se exibe a mensagem de agradecimento {string}', function (string) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
+
+   ? E se contem a informacao "Amount" como "<preco>"
+       Undefined. Implement with the following snippet:
+
+         Then('se contem a informacao {string} como {string}', function (string, string2) {
+           // Write code here that turns the phrase above into concrete actions
+           return 'pending';
+         });
