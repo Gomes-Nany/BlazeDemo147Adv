@@ -1,9 +1,12 @@
 import { Given, When, Then, And } from "@cucumber/cucumber";
+import HomePage from '../pages/home.page';
 
 
 
-
-Given('que estou no site Blazedemo', function () {
+Given('que estou no site Blazedemo', function ({page}) {
+   abrir_site
+   expect(HomePage.titulo)
+   HomePage.verificar_mensagem_boas_vindas()
 
 });
 
