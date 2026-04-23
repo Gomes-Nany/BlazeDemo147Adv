@@ -1,4 +1,4 @@
-export default class HomePage{
+export default class HomePage {
     // Construtor com mapeamento dos elementos
     constructor(page){
         this.page = page  // O objeto do playwright interno recebe o objeto do playwright externo
