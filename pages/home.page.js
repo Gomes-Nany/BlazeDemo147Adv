@@ -1,4 +1,5 @@
-export default class HomePage {
+//export default class HomePage { //padrão para type = module
+class HomePage {                 // padrão para type = commonjs
     // Construtor com o mapeamento dos elementos
     constructor(page){
         this.page = page    // o objeto do PW interno recebe o objeto do PW externo
@@ -41,4 +42,5 @@ export default class HomePage {
     }
  
 }
- 
+
+module.exports = HomePage  // padrão quando type = commonjs

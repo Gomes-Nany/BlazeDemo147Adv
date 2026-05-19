@@ -43,3 +43,24 @@ com arquivos .spec.js
 Em um projeto simples, cada teste é um arquivo .spec.js diferente
 Em um projeto com Gherkin, cada teste é composto por um arquivo .Feature + um arquivo steps.js
 
+dependencias removidas:
+"@types/node": "^25.5.2",
+"playwright-bdd": "^8.5.0"
+
+
+diferenças de sintaxe conforme o type definido no packge.json
+
+commonjs --> const ... = require('...')
+module --> import ... from ...
+
+Sobre execução sincrona (uma parte espera a outra / ex. do telefone) e 
+Assincrona (a parte emissora não espera / ex. mensagem do whatsapp)
+
+Sem async/await: transação sincrona
+Com async/await: transação assincrona
+
+Estamos usando dois frameworks:
+- Playwright (controla o browser) --> Timeout (mensagem especifica que pode explicar a causa)
+- Cucumber (organização)          --> Timeout (mensagem generica sem explicar a causa)
+
+Situação da aula: Funcionava sem o await e não funcionava com o await
