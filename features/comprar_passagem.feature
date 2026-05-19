@@ -6,7 +6,7 @@ Funcionalidade: Compra de Passagem
         E seleciono o destino como "London"
         E clico no botao
         Entao verifico o texto "Flights from São Paolo to London:"
-        E se a url contem "reserve"
+        E verifico se a url contem "reserve"
         Quando seleciono o voo "9696" da companhia "Aer Lingus"
         Entao verifico se a url contem "purchase"
         Quando preencho o nome como "Charlie Brown"
@@ -23,7 +23,7 @@ Funcionalidade: Compra de Passagem
         E seleciono o destino como "<destino>"
         E clico no botao "Find Flights"
         Entao verifico o texto Flights from "<origem>" to "<destino>"
-        E se a url contem "reserve"
+        E verifico se a url contem "reserve"
         Quando seleciono o voo "<voo>" da companhia "<companhia>"
         Entao verifico se a url contem "purchase"
         Quando preencho o nome como "<nome>"
@@ -39,4 +39,3 @@ Funcionalidade: Compra de Passagem
     | São Paolo | London   | 9696 | Aer Lingus     | Charlie Brown | Visa               | 555 USD |
     | Portland  | Dublin   | 12   | Virgin America | Harry Potter  | American Express   | 555 USD |
     | Boston    | New York | 4346 | Lufthansa      | John Smith    | Dinner's Club      | 555 USD |
- 
